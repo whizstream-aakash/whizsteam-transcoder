@@ -8,5 +8,5 @@ ECS Fargate and Video transcoder
    AWS_REGION,
 4) npm start
 5) docker build -t video-transcoder:latest .
-6) docker run -d --name video-transcoder
+6) docker run -d --name <container-name> video-transcoder
 
