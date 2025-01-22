@@ -7,6 +7,6 @@ ECS Fargate and Video transcoder
    AWS_SECRET_ACCESS_KEY,
    AWS_REGION,
 4) npm start
-5) git build -t video-transcoder:latest .
-6) git run -d --name video-transcoder
+5) docker build -t video-transcoder:latest .
+6) docker run -d --name video-transcoder
 
