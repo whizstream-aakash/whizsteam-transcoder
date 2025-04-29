@@ -12,7 +12,6 @@ const main = async () => {
   const targetBucket = "whizstream-videos-output";
   const resolutions = ["360", "480", "720","1080"];
 
-
   console.log(`Bucket:${bucketName}, Key:${inputKey}`);
 
   try {
