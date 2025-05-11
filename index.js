@@ -13,7 +13,6 @@ const main = async () => {
   const resolutions = ["360", "480", "720","1080"];
 
   console.log(`Bucket:${bucketName}, Key:${inputKey}`);
-
   try {
     await downloadFromS3(bucketName, inputKey, inputFilePath);
     await processVideo(
