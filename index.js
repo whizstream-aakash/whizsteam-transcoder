@@ -9,7 +9,7 @@ const main = async () => {
   const inputKey = process.env.VIDEO_KEY;
   const inputFilePath = "/tmp/input.mp4";
   const outputDir = "/tmp/output";
-  const targetBucket = "whizstream-videos-output";
+  const targetBucket = "whizstream-output-videos-dev";
   const resolutions = ["360", "480", "720","1080"];
 
   console.log(`Bucket:${bucketName}, Key:${inputKey}`);
